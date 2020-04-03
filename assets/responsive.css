@@ -1,0 +1,836 @@
+@media all and (max-width: 414px) {
+  .dp-welcome h1 {
+    font-size: 3.5rem;
+  }
+
+  .dp-welcome p {
+    font-size: 2.2rem;
+  }
+
+  .dp-whymenstrual h5 {
+    font-size: 22px;
+  }
+
+  .dp-whymenstrual p {
+    font-size: 14px;
+  }
+
+}
+
+/* smaller phones like huawei and iphone 5 */
+@media all and (max-width: 340px) {
+
+}
+
+@media all and (min-width: 576px) and (max-width:991px){
+	.header .container {
+        max-width: initial;
+    }
+}
+@media all and (min-width: 992px) {
+    .navbar-brand{
+        position: static;
+    }
+    .work-section h1 {
+        margin-bottom: 410px;
+    }
+    .recurring-section {
+        margin-top: 72px;
+        max-width: 55%;
+    }
+    .recurring-section {
+        margin-top: 72px;
+    }
+
+}
+@media all and (min-width: 768px) {
+
+/* Header Style Start
+=============================* */
+.navbar-toggler-icon {
+    width: 42px;
+    height: 23px;
+    background-position: 0 0;
+    background-size: auto auto;
+}
+.container {
+    padding: 0;
+}
+.header .container {
+    padding: 0 23px;
+}
+.header {
+    padding: 31px 0;
+    margin-bottom: 34px;
+}
+
+.navbar-brand {
+    width: 117px;
+    top: 32px;
+}
+
+.menu{
+	width: 304px;
+	left:-304px;
+}
+
+.social-wrap{
+	padding-left: 0px;
+}
+
+.navbar-nav .blog li,.navbar-nav .contact li {
+   padding-left: 0px;
+}
+.show_767 {
+    display: none;
+}
+.hide_767 {
+    display: block;
+}
+
+.work-section-description {
+    width: 52%;
+    float: left;
+    margin-top: 75px;
+    text-align: left;
+}
+.work-section-img {
+    width: 44%;
+    float: right;
+}
+/*.work-section h1 {
+    margin-top: -100px;
+}*/
+.work-section h1 {
+	font-size: 6.4rem;
+}
+.work-section {
+    padding-top: 85px;
+}
+.work-section-description h1 {
+	line-height: 1.17;
+}
+.work-section-description p {
+    font-size: 28px;
+    font-family: 'libre_franklinmedium';
+}
+.work-section-description .btn {
+    margin-top: 12px;
+}
+.work-section h1 {
+    margin-bottom: 410px;
+}
+.work-section-img img {
+    max-width: 100%;
+}
+.work-section-img img {
+	margin-left: 0px;
+}
+
+.dp-sales-welcome .work-section-description p {
+	padding: 0px 30px 0px 0px;
+}
+
+.four-column-section h2 {
+	margin-bottom: 40px;
+}
+.four-column-box {
+    padding: 0px 30px;
+    display: flex;
+    display: -webkit-flex;
+}
+.image_box img {
+    max-width: inherit;
+}
+.image_box {
+    position: relative;
+    padding-left: 45px;
+}
+.four-column-box h5 {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    font-family: 'libre_franklinbold';
+    padding-top: 10px;
+}
+
+
+/* Header Style End
+=============================* */
+
+
+
+
+/* Work-Section Style Start
+ =============================* */
+h1{
+	font-family: 'libre_franklinblack';
+	font-size: 4.5rem;
+	padding: 0px;
+}
+
+.work-section {
+	background: url(https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/pattern.png) no-repeat right 63px;
+    background-size: 634px 808px;
+    padding-top: 15px;
+    margin-bottom: 19px;
+}
+
+.work-section p{
+	font-size: 2.0rem;
+    padding: 0 172px;
+    line-height: 1.2;
+    margin-bottom: 250px;
+}
+
+.round-img {
+    top: 7px;
+    right: -72px;
+}
+
+.round-img img {
+    width: 182px;
+}
+
+.droplet-box {
+   top: 124px;
+   left: -187px;
+}
+
+.droplet-box img {
+    width: 621px;
+}
+
+.work-section .card-text{
+	font-size: 1.6rem;
+}
+
+.card{
+	width: 350px;
+	padding: 0 21px
+}
+
+.card.receive{
+	padding-right: 47px;
+}
+
+.card.receive a{
+	margin-bottom: 17px;
+}
+
+.drop{
+	padding-left: 39px;
+}
+
+.drop img {
+    width: 197px;
+}
+
+.card.submit{
+	padding-top: 130px;
+    padding-left: 70px;
+}
+
+.card.submit a{
+	margin-bottom: 4px;
+}
+
+.card.submit h2{
+	margin-bottom: 11px;
+}
+
+.card.submit p{
+	padding: 0 12px;
+}
+/* Work-Section Style End
+ =============================* */
+
+
+/* Droplet-Section Style Start
+ =============================* */
+.droplet-section {
+    background: url(https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/pattern1.png) no-repeat right 68px;
+    background-size: 760px 735px;
+    margin-bottom: 0px;
+}
+
+.droplet{
+	margin-left: -102px;
+}
+
+.droplet img {
+    width: 342px;
+}
+
+.card.mail {
+    padding: 37px 80px 0 22px;
+}
+
+.card.mail p{
+	padding: 0 26px;
+    letter-spacing: 0.5px;
+}
+
+.card.result {
+    margin-bottom: 19px;
+    padding: 157px 37px 0 82px;
+}
+
+.gadget-wrap {
+    width: 306px;
+    padding-top: 43px;
+    padding-left: 26px;
+}
+
+.gadget img {
+    width: 297px;
+}
+.orange-circle {
+    right: -84px;
+    top: 141px;
+}
+
+.orange-circle img {
+    width: 192px;
+}
+
+.blue-circle {
+    left: 21px;
+}
+
+.blue-circle img {
+    width: 91px;
+}
+
+/* Droplet-Section Style End
+ =============================* */
+
+/* Form-Section Style Start
+ =============================* */
+.form-section {
+   padding-bottom: 328px;
+}
+
+.uptodate {
+    width: 421px;
+}
+
+.form-wrap h2 {
+   margin-bottom: 14px;
+   font-size: 2.8rem;
+}
+
+.form-wrap {
+    padding: 26px 37px 39px 31px;
+}
+
+.circle-bg {
+    left: -158px;
+}
+
+.circle-bg:before {
+    left: -34px;
+    bottom: 19px;
+}
+
+input[type="submit"] {
+    right: 14px;
+}
+
+/* Form-Section Style End
+ =============================* */
+
+.form-section-new {
+    padding: 44px 48px 27px;
+}
+.form-section-new h4 {
+    font-size: 28px;
+}
+.form-row-new {
+    width: 100%;
+    margin-bottom: 17px;
+    margin-right: 4%;
+}
+.form-row-new.right-align {
+    margin-right: 0px;
+}
+
+.form-row-new.comments {
+    width: 100%;
+}
+
+.health-plan-form form input[type="submit"] {
+    font-size: 14px;
+}
+.form_description {
+    margin-top: 55px;
+}
+.health-plan-form {
+    padding: 60px 0px 250px 0px;
+}
+
+}
+
+
+@media all and (min-width: 992px) {
+
+/* Header Style Start
+=============================* */
+.container{
+	 padding: 0 20px;
+}
+.header {
+    padding: 53px 0 25px 0px;
+    margin-bottom: 25px;
+}
+
+.navbar-brand{
+	width: 25%;
+	top: 40px;
+	z-index: 3;
+}
+.navbar-brand img{
+    max-width: 131px;
+}
+.navbar-nav {
+    display: block;
+    display: -webkit-block;
+}
+.navbar-nav ul{
+	margin-bottom: 0;
+    text-align: center;
+    float: left;
+}
+
+
+.navbar-nav .blog li,.navbar-nav .contact li {
+   padding-left: 0;
+}
+
+.navbar-expand-lg .navbar-nav{
+   justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding: 0;
+	font-family: 'libre_franklinsemibold';
+}
+
+.social-wrap{
+	display: none;
+}
+
+.cross{
+	display: none;
+}
+
+.navbar-nav li{
+	float: none;
+    display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 40px;
+}
+
+.navbar-nav li.link-right{
+	float: right;
+}
+
+.navbar-nav li:last-child{
+	margin-right: 0;
+}
+
+.menu {
+   position: static;
+   width: 100%;
+   padding: 0;
+}
+
+.navbar-nav{
+    height: auto;
+    overflow: auto;
+}
+.navbar-nav li a {
+    padding: 14px 0px !important;
+}
+.navbar-nav li a::after {
+    content: "";
+    height: 2px;
+    background-color: #29023f;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 6px;
+    margin: 0 auto;
+    transition: 0.5s all ease 0s;
+    -webkit-transition: 0.5s all ease 0s;
+    -moz-transition: 0.5s all ease 0s;
+    -ms-transition: 0.5s all ease 0s;
+}
+.navbar-nav li a:hover::after,
+.navbar-nav li a.active::after {
+    transition: 0.2s all ease 0s;
+    -webkit-transition: 0.2s all ease 0s;
+    -moz-transition: 0.2s all ease 0s;
+    -ms-transition: 0.2s all ease 0s;
+    width: 100%;
+}
+.navbar-nav li a.active {
+    color: #29023f;
+}
+
+
+.work-section-description {
+    width: 50%;
+    float: left;
+    margin-top: 75px;
+    text-align: left;
+}
+.work-section-img {
+    width: 50%;
+    float: right;
+}
+.work-section-img img {
+    width: 100%;
+}
+
+.center-title h3 {
+	font-size: 36px;
+	font-family: 'libre_franklinblack';
+	letter-spacing: 0.06em;
+}
+.work-section-img img {
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+.life-science-section {
+    margin: 78px 0px 85px;
+}
+/* Header Style End
+=============================* */
+
+/*work-section-new Styles Start
+=============================* */
+
+.image_box img {
+    position: static;
+}
+.image_box {
+    padding-left: 0px;
+}
+.four-column-box h5 {
+    padding-top: 0px;
+}
+.image_box img {
+    margin-bottom: 18px;
+}
+
+/*work-section-new Styles End
+=============================* */
+
+/*four-column-section Styles start
+=============================* */
+.four-column-section {
+    margin-bottom: 30px;
+}
+.four-column-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.four-column-box {
+    padding: 0px 25px;
+}
+.four-column-box p {
+    margin-top: 0px;
+}
+.four-column-div {
+    padding: 28px 21px;
+}
+.work-section-img {
+    text-align: left;
+}
+.four-column-box {
+    padding: 0px 30px;
+    display: flex;
+    display: -webkit-flex;
+}
+.four-column-section .row {
+    margin:0px -25px;
+}
+/*four-column-section Styles End
+=============================* */
+
+
+/* Work-Section Style Start
+ =============================* */
+
+.droplet-box {
+   top: 78px;
+    left: -80px;
+}
+
+.droplet-box img {
+    width: 700px;
+}
+
+
+/* Work-Section Style End
+ =============================* */
+
+}
+@media all and (min-width: 1200px) {
+
+/* Work-Section Style Start
+ =============================* */
+
+.work-section {
+    background-position: right 143px;
+    background-size: auto 1038px;
+    margin-bottom: 67px;
+}
+
+h1{
+	font-family: 'libre_franklinextrabold';
+	font-size: 6.4rem;
+	padding: 0px ;
+	margin-bottom: 13px;
+}
+
+.droplet-box {
+    top: 36px;
+   left: -311px;
+}
+
+.droplet-box img {
+    width: 800px;
+    left: -151px;
+}
+
+.work-section p{
+	font-family: 'libre_franklinmedium';
+	padding: 0px 339px;
+}
+
+.round-img {
+    top: 0px;
+    right: -65px;
+}
+
+.round-img img {
+    width: 298px;
+}
+
+h2{
+	font-size: 2.8rem;
+}
+
+.card {
+    width: 541px;
+}
+
+.card.receive {
+    padding-right: 215px;
+}
+
+.card.receive .card-title {
+    padding: 0px;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+}
+
+.card.receive a {
+    margin-bottom: 13px;
+}
+
+.card a img {
+    width: 88px;
+}
+
+.work-section .card-text {
+    font-size: 2.0rem;
+    font-family: 'libre_franklinregular';
+    padding: 0 3px;
+}
+
+.drop {
+    padding-left: 31px;
+    padding-top: 71px;
+}
+
+.drop img {
+    width: 217px;
+}
+
+.card.submit {
+    padding-top: 91px;
+    padding-left: 196px;
+}
+
+.card.submit a{
+	margin-bottom: 17px;
+}
+
+/* Work-Section Style End
+ =============================* */
+
+
+/* Droplet-Section Style Start
+ =============================* */
+.droplet-section {
+    background-position:right 139px;
+    background-size: auto 945px;
+    padding-bottom: 81px;
+    margin-bottom: 0px;
+}
+
+.droplet {
+    margin-left: -35px;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom:51px;
+    z-index: 1;
+}
+
+.droplet img{
+	position: relative;
+}
+
+.droplet:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("../images/dots.png") no-repeat center top;
+	width:200px;
+	height:200px;
+}
+
+.droplet img {
+   width: 391px;
+}
+
+.card.mail {
+    padding: 38px 214px 0 22px;
+}
+
+.card.mail h2 {
+    margin-bottom: 8px;
+}
+
+.card.mail a{
+    margin-bottom: 17px;
+}
+
+.card-text{
+	font-size: 2.0rem;
+    font-family: 'libre_franklinregular';
+}
+
+.gadget-wrap {
+    width: 362px;
+    padding-top: 77px;
+    padding-left: 16px;
+}
+
+.gadget img {
+    width: 373px;
+}
+
+.orange-circle {
+    right: -118px;
+    top: 194px;
+}
+
+.orange-circle img {
+    width: 249px;
+}
+
+.blue-circle {
+    left: 2px;
+    bottom: 139px;
+}
+
+.blue-circle img {
+    width: 120px;
+}
+
+.card.result {
+    margin-bottom: 19px;
+    padding: 224px 37px 0 208px;
+}
+
+.card.result a{
+	margin-bottom: 17px;
+}
+
+
+
+/* Droplet-Section Style End
+ =============================* */
+
+
+/* Form-Section Style Start
+ =============================* */
+.form-section {
+   padding-right: 53px;
+   padding-bottom: 335px;
+}
+
+.uptodate {
+   width: 427px;
+   margin-left: 315px;
+}
+
+.form-wrap {
+   padding: 47px 50px 46px 43px;
+}
+
+.form-wrap h2{
+	margin-bottom: 11px;
+}
+
+.form-wrap p {
+	font-size: 2.0rem;
+	line-height: 1.3;
+	margin-bottom: 21px;
+}
+
+.circle-bg {
+    left: -208px;
+    top: -50px;
+    width: 431px;
+    height: 431px;
+}
+
+.circle-bg:after{
+	width: 320px;
+	height: 320px;
+}
+
+.circle-bg:before {
+    left: -42px;
+    bottom: 19px;
+    width: 190px;
+    height: 190px;
+}
+
+input[type="submit"] {
+    right: 5px;
+    top: 4px;
+}
+
+input{
+	letter-spacing: 1px;
+}
+
+}
+@media all and (min-width: 1300px) {
+
+.droplet-box img {
+    width: 958px;
+}
+
+.navbar-nav li{
+    margin-right: 56px;
+}
+}

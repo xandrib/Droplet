@@ -1,0 +1,1341 @@
+/*1) Font-face Style
+ ----------------------------------*/
+
+@font-face {
+    font-family: 'libre_franklinbold';
+    src: url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-bold-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_franklinregular';
+    src: url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-regular-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_franklinsemibold';
+    src: url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-semibold-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_franklinmedium';
+    src: url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-medium-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_franklinblack';
+    src: url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-black-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'libre_franklinextrabold';
+    src: url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-extrabold-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/fonts/Libre_Franklin/librefranklin-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 2.) Global Typography ---------------------------------------------*/
+html{
+	font-size: 10px;
+}
+
+body {
+	font-family: 'libre_franklinregular';
+	line-height: 1.2;
+	font-size: 1.6rem;
+	color: #29023f;
+	background-color: #fff6f5;
+	min-height: 100%;
+	position: relative;
+}
+
+body.dp-white-page, body.dp-about-page {
+	background-color: #ffffff;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style-type: none;
+}
+/* 3.) Global Headings ---------------------------------------------*/
+
+h1 {
+  font-family: 'libre_franklinbold';
+  font-size: 2.8rem;
+  margin-bottom: 13px;
+  color: #29023f;
+}
+
+h2 {
+   font-family: 'libre_franklinbold';
+   font-size: 2.0rem;
+   letter-spacing: 0.5px;
+   color: #29023f;
+}
+
+h3{
+	font-family: 'libre_franklinsemibold';
+	font-size: 1.4rem;
+	text-transform: capitalize;
+	margin-bottom: 9px;
+	color: #29023f;
+}
+
+/* 4) General Text Formatting ---------------------------------------------*/
+
+p {
+   font-family: 'libre_franklinregular';
+   color: #29023f;
+}
+
+blockquote, cite, q, var, dfn {
+	font-style: italic;
+}
+
+small {
+	font-size: 85.71429%;
+	line-height: 1.75;
+}
+
+i {
+	font-style: normal;
+}
+
+/*5) Global Link style ---------------------------------------------*/
+
+a {
+	text-decoration: none;
+	color: #29023f;
+}
+
+/* Links */
+
+a:focus, a:active, a:hover {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+
+a:hover{
+	color: #29023f;
+	text-decoration: none;
+}
+
+
+/*6) Global Button Styles ---------------------------------------------*/
+
+button:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/*7). Global Input Style
+ -------------------------------*/
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius:0;
+}
+::-ms-clear {
+  display: none;
+}
+
+input:focus {
+	outline: 0;
+}
+
+input{
+	color: #29023f;
+	font-size: 14px;
+	background: transparent;
+	font-family: 'libre_franklinregular';
+	border: 0;
+	padding:0 33px 13px 0;
+	border-bottom: 1px solid;
+	width: 100%;
+	letter-spacing: 1.2px;
+	font-weight: 600;
+}
+
+input[type="submit"]{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 12px;
+	background: url("https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/arrow.png") no-repeat center top;
+	border-bottom: 0;
+	padding: 0;
+	cursor: pointer;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #f17a58;
+    color: #fff;
+    min-width: 171px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'libre_franklinmedium';
+    transition: 0.5s all ease 0s;
+    -webkit-transition: 0.5s all ease 0s;
+    -moz-transition: 0.5s all ease 0s;
+    -ms-transition: 0.5s all ease 0s;
+    position: relative;
+}
+
+.btn:hover {
+  background: #DF603D;
+  color: #fff;
+}
+
+.btn.with_arrow:hover {
+  background: #DF603D;
+  color: #fff;
+}
+.btn.with_arrow::after {
+	content: "";
+	background: url("https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/btn-arrow.png") no-repeat bottom;
+    width: 13px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 11px;
+    vertical-align: 1px;
+    transition: 0.3s all ease 0s;
+    -webkit-transition: 0.3s all ease 0s;
+    -moz-transition: 0.3s all ease 0s;
+    -ms-transition: 0.3s all ease 0s;
+}
+/*
+.btn.with_arrow:hover:after {
+    transition: 0.3s all ease 0s;
+    -webkit-transition: 0.3s all ease 0s;
+    -moz-transition: 0.3s all ease 0s;
+    -ms-transition: 0.3s all ease 0s;
+    background-position: top;
+}
+*/
+.btn.custom_arrow::after {
+    content: "";
+    background: url("https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/custom-arrow.png") no-repeat left;
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 11px;
+    vertical-align: -2px;
+    transition: 0.3s all ease 0s;
+    -webkit-transition: 0.3s all ease 0s;
+    -moz-transition: 0.3s all ease 0s;
+    -ms-transition: 0.3s all ease 0s;
+}
+/*
+.btn.custom_arrow:hover:after {
+    transition: 0.3s all ease 0s;
+    -webkit-transition: 0.3s all ease 0s;
+    -moz-transition: 0.3s all ease 0s;
+    -ms-transition: 0.3s all ease 0s;
+    background-position: right;
+}
+*/
+
+
+
+/*Placeholder style*/
+
+::-webkit-input-placeholder {/* Chrome/Opera/Safari */
+	color: #29023f;
+	font-size: 14px;
+	font-family: 'libre_franklinregular';
+	text-transform: uppercase;
+	opacity: 1;
+}
+::-moz-placeholder {/* Firefox 19+ */
+	color: #29023f;
+	font-size: 14px;
+	font-family: 'libre_franklinregular';
+	text-transform: uppercase;
+	opacity: 1;
+}
+:-ms-input-placeholder {/* IE 10+ */
+	color: #29023f;
+	font-size: 14px;
+	font-family: 'libre_franklinregular';
+	text-transform: uppercase;
+	opacity: 1;
+}
+:-moz-placeholder {/* Firefox 18- */
+	color: #29023f;
+	font-size: 14px;
+	font-family: 'libre_franklinregular';
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+/* Clear Floated Elements by use Clearfix class---------------------------------------------*/
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* 8.) Global Site Wide Content ---------------------------------------------*/
+
+
+figure {
+	margin: 0;
+}
+
+.container{
+	padding: 0 23px;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(140, 138, 143, 0.5);
+	display: none;
+}
+
+.show-overlay{
+	display: block;
+}
+
+.bodyfixed{
+	position: fixed;
+	width: 100%;
+}
+
+
+/* 9.) Header Styles ---------------------------------------------*/
+
+.header{
+	padding: 22px 0;
+	margin-bottom:29px;
+}
+
+.navbar{
+	padding: 0;
+	position: static;
+}
+
+.navbar-nav li{
+    margin-bottom: 17px;
+}
+
+.navbar-nav li a{
+	text-transform: capitalize;
+	letter-spacing: 0.4px;
+	font-size: 1.6rem;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.navbar-nav li a:hover{
+	opacity: 1;
+}
+.navbar-nav li a {
+    position: relative;
+}
+.navbar-nav li a.active {
+    color: #d6988d;
+}
+
+.navbar-brand{
+	position: absolute;
+	width: 100px;
+	top: 22px;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.navbar-brand img{
+	width: 100%;
+}
+
+.navbar-nav{
+    flex-basis: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.navbar-nav ul{
+	width: 100%;
+}
+
+.cross{
+	display: none;
+	cursor: pointer;
+	width: 23px;
+    height: 23px;
+	position: fixed;
+	top: 25px;
+    left: 28px;
+}
+
+.show-cross{
+	display: inline-block;
+}
+
+.navbar-toggler{
+	padding: 0;
+	cursor: pointer;
+}
+
+.navbar-toggler-icon{
+    width: 30px;
+    height: 17px;
+    background: url(https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/menu-btn.svg) no-repeat -2px 0;
+    background-size: 32px 16px;
+    cursor: pointer;
+}
+
+.menu{
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left: -210px;
+	z-index: 2;
+	width: 210px;
+	padding: 88px 0 0 28px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	height: 100%;
+}
+
+.menu.active{
+	left:0;
+	background: #ffffff;
+}
+
+.social-wrap li{
+	float: left;
+	margin-right: 20px;
+}
+
+/* 10.) Footer Styles ---------------------------------------------*/
+.footer{
+	background-color: #f8d9d2;
+	/* padding: 38px 0 39px; */
+	position: relative;
+}
+
+.footer:before{
+    content: '';
+    position: absolute;
+    background: url(https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/pattern2.png) no-repeat right top;
+    background-size: 251% 100%;
+    width: 100%;
+    height: 312px;
+    top: -145px;
+    right: 0;
+}
+
+.footer:after{
+    content: '';
+    position: absolute;
+    background-color: #f17a58;
+    width: 56px;
+    height: 56px;
+    z-index:1;
+    border-radius:50%;
+    top: -150px;
+    right: 52px;
+}
+
+.footer .footer-links {
+	width: 30%;
+	float: left;
+}
+
+.footer .footer-links a {
+    font-family: 'libre_franklinmedium';
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: rgb(41, 2, 63);
+}
+
+.footer .footer-links li {
+    margin-bottom: 12px !important;
+}
+
+.footer.no-footer-bg::before {
+    display: none;
+}
+
+.footer.no-footer-bg::after {
+    display: none;
+}
+
+.footer.no-footer-bg {
+    background-color: transparent;
+}
+
+.footer .container {
+	margin-top: 130px;
+	margin-bottom: 20px;
+}
+
+.footer .logo-section {
+    float: left;
+	width: 30%;
+}
+
+.footer .logo-section img {
+	width: 100px;
+}
+
+.footer .links-section {
+	float: left;
+    width: 70%;
+}
+
+.footer .disclaimer-left {
+	float: left;
+	width: 30%;
+	background-color: #f8d9d2;
+	margin-top: 20px;
+}
+
+.footer .disclaimer-right {
+	float: left;
+	width: 70%;
+	margin-top: 20px;
+}
+
+.footer .disclaimer-right p {
+	padding: 0px;
+	font-size: 15px;
+    line-height: 1.3;
+}
+
+@media all and (max-width: 992px) {
+	.footer:before {
+		top: -170px;
+	}
+}
+
+.dp-about-page .footer {
+	background-color: #ffffff;
+}
+
+.dp-about-page .footer:before {
+	background: none;
+}
+
+.dp-about-page .footer:after{
+	background-color: #ffffff;
+	width: 0px;
+	height: 0px;
+}
+
+
+.dp-white-page .footer {
+	background-color: #ffffff;
+}
+
+.dp-white-page .footer:before {
+	background: none;
+	width: 0px;
+	height: 0px;
+}
+
+.dp-white-page .footer:after{
+	background-color: #ffffff;
+	width: 0px;
+	height: 0px;
+}
+
+.dp-white-page .disclaimer-left {
+	background-color: #ffffff;
+}
+
+.dp-white-page .footer .container {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+/* 11.) work-section-new Styles ---------------------------------------------*/
+
+.dp-welcome-banner img {
+  width: 299px;
+}
+
+.work-section-description {
+    width: 100%;
+    text-align: center;
+}
+
+.work-section-img img {
+    max-width: 100%;
+}
+.work-section-description .btn {
+    margin-top: 5px;
+}
+.work-section-img {
+    margin-top: 30px;
+    text-align: center;
+}
+.work-section-img img {
+    margin-left: 10px;
+}
+.work-section-new {
+    overflow: hidden;
+}
+.image_box img {
+    max-width: 27px;
+}
+
+/*.droplet-box {
+    top: 93px !important;
+}*/
+.work-section h1 {
+    margin-bottom: 330px;
+    font-size: 36px;
+}
+.show_767 {
+    display: block;
+}
+.hide_767 {
+    display: none;
+}
+
+.dp-welcome .announcement-section-container {
+	padding: 30px 10px 10px 0px;
+}
+
+.dp-welcome .announcement-section {
+	background: rgb(255, 255, 255);
+	border-radius: 4px;
+	border: 2px solid rgb(41, 2, 63);
+	box-shadow: -8px 8px #f8d9d2;
+	padding: 25px 30px;
+}
+
+.dp-welcome .announcement-section .title {
+	color: rgb(41, 2, 63);
+	font-family: 'libre_franklinbold';
+	font-size: 20px;
+}
+
+.dp-welcome .announcement-section .description {
+	color: rgb(41, 2, 63);
+	font-family: 'libre_franklinmedium';
+	font-size: 14px;
+	margin-top: 6px;
+}
+
+.dp-welcome .announcement-section .link {
+	margin-top: 10px;
+}
+
+.dp-welcome .announcement-section .link a {
+	color: rgb(223, 96, 61);
+	font-size: 16px;
+	font-family: 'libre_franklinbold';
+	text-decoration: underline;
+}
+
+.dp-welcome .announcement-section img {
+    width: 18px;
+    margin: 0px 0px 7px 6px;
+}
+
+@media all and (max-width: 992px) {
+	.dp-welcome .announcement-section-container {
+		padding-top: 10px;
+	}
+	
+	.dp-welcome .announcement-section {
+		text-align: left;	
+	}
+	
+	.dp-welcome .announcement-section .title {
+		font-size: 21px;
+	}
+	
+	.dp-welcome .announcement-section .description {
+		font-size: 15px;
+	}
+	
+	.dp-welcome .announcement-section .link {
+		margin-top: 15px;
+	}
+	
+	.dp-welcome .announcement-section .link a {
+		font-size: 18px;
+	}
+	
+	.dp-welcome .announcement-section img {
+		width: 18px;
+		margin: 0px 0px 7px 6px;
+	}
+}
+
+/* 12.) four-column-section Styles ---------------------------------------------*/
+.four-column-section {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.four-column-section h2 {
+	font-size: 28px;
+    margin-bottom: 25px;
+}
+.four-column-div {
+    padding: 20px;
+    position: relative;
+}
+
+.four-column-box {
+    padding: 0px 7px;
+    display: block;
+    display: -webkit-block;
+}
+.four-column-section .row {
+    margin:0px;
+}
+.four-column-box h5 {
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	font-family: 'libre_franklinbold';
+    padding-top: 5px;
+}
+.four-column-box p {
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	line-height: 1.28;
+    margin-top: 22px;
+}
+.image_box {
+    position: relative;
+    padding-left: 40px;
+}
+.image_box img {
+    position: absolute;
+    margin-bottom: 0px;
+    left: 0;
+    top:0px;
+}
+.four-column-box {
+    margin-bottom: 30px;
+}
+
+@media all and (max-width: 992px) {
+	.four-column-box {
+		margin-bottom: 10px;
+		margin-left: 20px;
+	}
+
+	.four-column-div {
+		padding: 5px 0px 5px 0px;
+		position: relative;
+	}
+}
+
+
+/* 13.) form-section Styles ---------------------------------------------*/
+.form-section label {
+	font-size: 12px;
+	font-family: 'libre_franklinbold';
+	letter-spacing: 0.06em;
+	display: block;
+	width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.form-section input[type="email"] {
+	width: 100%;
+	height: 42px;
+	padding:0px 15px;
+	border: 1px solid #DAD1DE;
+	border-radius: 4px;
+}
+.form-section .form-row .form-row {
+	width: 100%;
+}
+.form-section input[type="submit"] {
+	position: static;
+	background: #F17A59;
+	height: auto;
+	width: auto;
+	border: none;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	color: #fff;
+	border-radius: 3px;
+	padding: 12px 17px;
+	margin-top: 15px;
+    transition: 0.5s all ease 0s;
+    -webkit-transition: 0.5s all ease 0s;
+    -moz-transition: 0.5s all ease 0s;
+    -ms-transition: 0.5s all ease 0s;
+}
+
+.form-section input[type="submit"]:hover {
+    background:#DF603D;
+    transition: 0.5s all ease 0s;
+    -webkit-transition: 0.5s all ease 0s;
+    -moz-transition: 0.5s all ease 0s;
+    -ms-transition: 0.5s all ease 0s;
+}
+
+
+
+/*hospitals*/
+.dp-sales-welcome .dp-sales-icon {
+  width: 66px;
+  padding: 0px 0px 10px 0px;
+}
+.recurring-section {
+    margin-top: 52px;
+}
+.recurring-box h5 {
+    margin-bottom: 0px;
+}
+.image_description {
+    padding-left: 30px;
+}
+.recurring-box img {
+    margin-right: -36px;
+    float: left;
+}
+.recurring-box {
+    margin-bottom: 32px;
+}
+.work-section-description .recurring-section {
+    text-align: left;
+}
+.recurring-box h5 {
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	font-family: 'libre_franklinbold';
+    margin-bottom: 8px;
+}
+.work-section-description .recurring-box p {
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	font-family: 'libre_franklinmedium';
+	line-height: 1.28;
+}
+.health-plan-form {
+    position: relative;
+    padding: 60px 0px 160px 0px;
+}
+.health-plan-form::before {
+    content: "";
+    background: url(https://s3-us-west-1.amazonaws.com/droplethealth-382903888/home_v3/images/sales/background_pink_wave.png) no-repeat center / cover;
+    width: 100%;
+    height: 591px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -160px;
+}
+.form_description {
+    margin-top: 40px;
+}
+.form-section-new h4 {
+	font-size: 22px;
+	font-family: 'libre_franklinbold';
+    margin-bottom: 8px;
+}
+.form-section-new form {
+    margin-top: 25px;
+}
+.form-section-new p {
+	font-size: 16px;
+	letter-spacing: 0.05em;
+}
+.form_description h5 {
+	font-size: 20px;
+	font-family: 'libre_franklinbold';
+	letter-spacing: 0.05em;
+    margin-bottom: 13px;
+}
+.form_description p {
+	font-size: 14px;
+	letter-spacing: 0.035em;
+}
+.health-plan-form form label {
+	font-size: 12px;
+	font-family: 'libre_franklinbold';
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	width: 100%;
+    margin-bottom: 8px;
+}
+.health-plan-form form input[type="email"],
+.health-plan-form form input[type="text"] {
+	width: 232px;
+	height: 42px;
+	padding:0px 15px;
+	border: 1px solid #DAD1DE;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.health-plan-form form textarea {
+	width: 232px;
+	height: 85px;
+	padding:0px 15px;
+	border: 1px solid #DAD1DE;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.health-plan-form form input[type="submit"] {
+	position: static;
+	background: #F17A59;
+	height: auto;
+	width: auto;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	color: #fff;
+	border-radius: 3px;
+	padding: 12px 17px;
+	margin-top: 0px;
+    transition: 0.5s all ease 0s;
+    -webkit-transition: 0.5s all ease 0s;
+    -moz-transition: 0.5s all ease 0s;
+    -ms-transition: 0.5s all ease 0s;
+}
+/*
+.health-plan-form form input[type="submit"]:hover {
+    background:#2b0141;
+    transition: 0.5s all ease 0s;
+    -webkit-transition: 0.5s all ease 0s;
+    -moz-transition: 0.5s all ease 0s;
+    -ms-transition: 0.5s all ease 0s;
+}
+*/
+.form-row-new {
+	width: 100%;
+	float: left;
+    margin-bottom: 17px;
+    margin-right: 0%;
+}
+.form-row-new.right-align {
+    margin-right: 0px;
+}
+
+.max-711 {
+	max-width: 712px;
+    margin: 0 auto;
+    position: relative;
+}
+.form-section-new {
+    background-color: #fff;
+    padding: 25px 25px 12px;
+    box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.12);
+}
+
+.center-title h3 {
+	font-size: 28px;
+	font-family: 'libre_franklinblack';
+	letter-spacing: 0.06em;
+}
+
+.life-science-section {
+    margin: 60px 0px 30px;
+}
+.life-science-section-inner {
+    margin: 56px auto 0px;
+    max-width: 806px;
+}
+.logo-box {
+    margin-bottom: 40px;
+}
+
+.partners-section {
+  margin: 0px 0px 100px 0px;
+}
+
+.dp-sales-page .partners-section {
+  margin: 75px 0px 0px 0px;
+}
+
+.partners-section-inner {
+  margin-top: 25px;
+}
+.partners-box {
+  margin: 40px 0px 0px 0px;
+  padding: 0px 50px;
+}
+
+.partners-box img {
+  width: 100%;
+}
+
+.dp-everyone-page .desktop-everyone {
+    display: block;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.dp-everyone-page .desktop-everyone img {
+    width: 100%;
+}
+
+.dp-everyone-page .mobile-everyone {
+    display: none;
+}
+
+.dp-about-page {
+	color: #29023f;
+}
+
+.dp-about-page .content {
+	margin: 0 auto;
+    max-width: 900px;
+}
+
+.dp-about-page .about-section {
+	margin: 0px 0px 50px 0px;
+}
+
+.dp-about-page .left {
+    float: left;
+    width: 82%;
+}
+
+.dp-about-page .about-section .title {
+	font-family: 'libre_franklinbold';
+    font-size: 14px;
+    float: left;
+	letter-spacing: .35px;
+	margin: 0px 0px 30px 0px;
+}
+
+.dp-about-page .about-section .blurb {
+	font-family: 'libre_franklinblack';
+    font-size: 35px;
+    float: left;
+}
+
+.dp-about-page .about-section .spots {
+	width: 18%;
+    display: block;
+}
+
+.dp-about-page .founders-section {
+	margin: 0px 0px 100px 0px;
+}
+
+.dp-about-page .founders-section .title {
+	font-family: 'libre_franklinbold';
+    font-size: 14px;
+    float: left;
+    letter-spacing: .35px;
+    margin: 0px 0px 30px 0px;
+}
+
+.dp-about-page .founders-section .carousel {
+	float: left;
+    width: 100%;
+}
+
+.dp-about-page .founders-section .founder {
+	width: 280px;
+    float: left;
+    margin: 0px 25px 0px 0px;
+}
+
+.dp-about-page .founders-section .founder img {
+    height: 250px;
+	background-color: #f6dedc;
+	float: left;
+	width: 100%;
+	object-fit: cover;
+}
+
+.dp-about-page .founders-section .founder .name {
+	color: rgb(41, 2, 63);
+	font-family: 'libre_franklinbold';
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 33px;
+	float: left;
+    width: 100%;
+}
+
+.dp-about-page .founders-section .founder .position {
+	color: rgb(41, 2, 63);
+    font-family: 'libre_franklinmedium';
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+	float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.dp-about-page .founders-section .founder .blurb {
+    color: rgb(41, 2, 63);
+    font-family: 'libre_franklinregular';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 13px;
+    float: left;
+}
+
+.dp-about-page .advisors-section {
+	float: left;
+	margin: 0px 0px 100px 0px;
+}
+
+.dp-about-page .advisors-section .title {
+	color: rgb(41, 2, 63);
+    font-family: 'libre_franklinbold';
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.35px;
+}
+
+.dp-about-page .advisors-section .advisors-section-inner {
+
+}
+
+.dp-about-page .advisors-section .advisor-box {
+	padding: 54px 0px 0px 20px;
+	width: 150px;
+}
+
+.dp-about-page .advisors-section .advisor-img {
+	float: left;
+}
+
+.dp-about-page .advisors-section .advisor-img img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.dp-about-page .advisors-section .advisor-description {
+	margin: 18px 0px 0px 0px;
+	float: left;
+}
+
+.dp-about-page .advisors-section .advisor-description h4 {
+	color: rgb(41, 2, 63);
+    font-family: 'libre_franklinbold';
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+
+.dp-about-page .advisors-section .advisor-description h6 {
+	color: rgb(41, 2, 63);
+	font-family: 'libre_franklinregular';
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing: 0.4px;
+	margin: 10px 0px 0px 0px;
+	text-align: left;
+}
+
+.dp-about-page .advisors-section .advisor-description {
+
+}
+
+.dp-about-page .affiliations-section {
+	float: left;
+	margin: 0px 0px 100px 0px;
+}
+
+.dp-about-page .affiliations-section .title {
+	color: rgb(41, 2, 63);
+    font-family: 'libre_franklinbold';
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.35px;
+}
+
+.dp-about-page .affiliations-section .affiliations-section-inner {
+	padding: 50px 0px 0px 0px;
+}
+
+.dp-about-page .affiliations-section .affiliations-section-inner .affiliation img {
+	max-width: 50%;;
+}
+
+
+@media all and (max-width: 992px) {
+
+	.footer .logo-section {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.footer .logo-section img {
+		width: 100px;
+	}
+	
+	.footer .links-section {
+		width: 100%;
+	}
+
+	.footer .footer-links {
+		width: 40%;
+	}
+	
+	.footer .disclaimer-left {
+		width: 0%;
+		margin-top: 20px;
+	}
+	
+	.footer .disclaimer-right {
+		width: 85%;
+	}
+	
+	.footer .disclaimer-right p {
+		padding: 0px;
+	}
+
+	.dp-everyone-page .container {
+		margin-left: 20px;
+	}
+		
+	.dp-everyone-page .desktop-everyone {
+		display: none;
+	}
+			
+	.dp-everyone-page .mobile-everyone {
+		display: block;
+		text-align: center;
+		margin: 0px 0px 50px 0px;
+	}
+	
+	.dp-everyone-page .mobile-everyone img {
+		width: 100%;
+	}
+
+	.dp-about-page .container {
+		margin-left: 10px;
+	}
+
+	.dp-about-page .left {
+		width: 100%;
+	}
+
+	.dp-about-page .about-section .blurb {
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+
+	.dp-about-page .about-section .spots {
+		width: 35%;
+	}
+
+	.dp-about-page .founders-section {
+		margin: 0px 0px 50px 0px;
+	}
+
+	.dp-about-page .founders-section .founder {
+		width: 95%;
+		float: left;
+		margin: 0px 0px 50px 0px;
+	}
+
+	.dp-about-page .founders-section .founder .name {
+		font-size: 23px;
+	}
+	
+	.dp-about-page .founders-section .founder .position {
+		font-size: 21px;
+	}
+	
+	.dp-about-page .founders-section .founder .blurb {
+		font-size: 17px;
+		margin: 10px 0px 20px 0px;
+	}
+	
+	.dp-about-page .advisors-section .advisor-box {
+		padding: 54px 0px 0px 10px;
+		width: 175px;
+	}
+
+	.dp-about-page .advisors-section .advisor-description h4 {
+		font-size: 17px;
+	}
+
+	.dp-about-page .advisors-section .advisor-description h6 {
+		font-size: 13px;
+	}
+
+	.dp-about-page .affiliations-section .affiliations-section-inner .affiliation img {
+		max-width: 90%;
+	}
+
+}
+
+@media all and (max-width: 360px) {
+
+	.dp-about-page .founders-section .founder {
+		width: 270px;
+		float: left;
+		margin: 0px 0px 50px 0px;
+	}
+
+	.dp-about-page .advisors-section .advisor-box {
+		width: 150px;
+	}
+}
